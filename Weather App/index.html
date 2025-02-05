@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App using HTML CSS and JavaScript 30th January 2025</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <!-- <i class='bx bxs-map'></i> -->
+            <img class="map" src="img/bxs-map.svg">
+            <input type="text" placeholder="enter your location">
+            <!-- <button class="bx bx-search"></button> -->
+            <img class="searching" src="img/bx-search-alt-2.svg">
+        </div>
+
+        <p class="city-hide">city hide</p>
+        
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weahter">
+                        <img src="img/cloud2.png">
+                        <p class="temperature">0<span>°C</span></p>
+                        <p class="description">Broken CLouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <!-- <i class="bx bx-water"></i> -->
+                <img class="water" src="img/bx-water.svg" alt="">
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <!-- <i class='bx bx-wind'></i> -->
+                <img class="windImg" src="img/bx-wind.svg" alt="">
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src="img/location.png">
+                <p>Ooops! Location not found!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
